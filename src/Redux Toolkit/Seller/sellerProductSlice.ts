@@ -33,7 +33,19 @@ export const createProductsFromMock = createAsyncThunk<
 
       for (const category of menLevelThree) {
         const payload = {
-          ...baseProduct,
+          title: "Men Premium Product",
+  description: "High quality premium product for men",
+  mrpPrice: 1999,
+  sellingPrice: 1499,
+  discountPercent: 25,
+  quantity: 100,
+  color: "Black",
+  images: [
+    "https://picsum.photos/200"
+  ],
+  sizes: "S,M,L,XL",
+  in_stock: true,
+  numRatings: 0,
           categoryId: category.categoryId,
         };
 
