@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk, type PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
+import { menLevelThree } from "../../data/category/level three/menLevelThree";
 import { api } from "../../Config/Api";
 import type { Product } from "../../types/productTypes";
 
@@ -17,6 +18,35 @@ export const fetchSellerProducts = createAsyncThunk<Product[], any>(
     } catch (error: any) {
       console.log("error ", error.response);
       return rejectWithValue(error.response.data);
+    }
+  }
+);
+
+export const createProductsFromMock = createAsyncThunk<
+  Product[],
+  { baseProduct: any; jwt: string | null }
+>(
+  "sellerProduct/createProductsFromMock",
+  async ({ baseProduct, jwt }, { dispatch, rejectWithValue }) => {
+    try {
+      const createdProducts: Product[] = [];
+
+      for (const category of menLevelThree) {
+        const payload = {
+          ...baseProduct,
+          categoryId: category.categoryId,
+        };
+
+        const result = await dispatch(
+          createProduct({ request: payload, jwt })
+        ).unwrap(); // IMPORTANT
+
+        createdProducts.push(result);
+      }
+
+      return createdProducts;
+    } catch (error: any) {
+      return rejectWithValue(error);
     }
   }
 );

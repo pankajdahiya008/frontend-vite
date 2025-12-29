@@ -24,7 +24,7 @@ import { menLevelThree } from "../../../data/category/level three/menLevelThree"
 import { womenLevelThree } from "../../../data/category/level three/womenLevelThree";
 import { colors } from "../../../data/Filter/color";
 import { useAppDispatch, useAppSelector } from "../../../Redux Toolkit/Store";
-import { createProduct } from "../../../Redux Toolkit/Seller/sellerProductSlice";
+import { createProduct, createProductsFromMock } from "../../../Redux Toolkit/Seller/sellerProductSlice";
 import { uploadToCloudinary } from "../../../util/uploadToCloudnary";
 import { electronicsLevelThree } from "../../../data/category/level three/electronicsLevelThree";
 import { electronicsLevelTwo } from "../../../data/category/level two/electronicsLavelTwo";
@@ -402,6 +402,28 @@ const ProductForm = () => {
               {sellerProduct.loading ? <CircularProgress size="small"
                 sx={{ width: "27px", height: "27px" }} /> : "Add Product"}
             </Button>
+            <Button
+  sx={{ p: "14px", mt: 2 }}
+  color="secondary"
+  variant="contained"
+  fullWidth
+  type="button"           // IMPORTANT: not submit
+  disabled={sellerProduct.loading}
+  onClick={() => {
+    dispatch(
+      createProductsFromMock({
+        baseProduct: formik.values,
+        jwt: localStorage.getItem("jwt"),
+      })
+    );
+  }}
+>
+  {sellerProduct.loading ? (
+    <CircularProgress size="small" sx={{ width: 27, height: 27 }} />
+  ) : (
+    "Add Products (Batch)"
+  )}
+</Button>
           </Grid>
         </Grid>
       </form>
