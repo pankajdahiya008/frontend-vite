@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk, type PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
-import { menLevelThree } from "../../data/category/level three/menLevelThree";
+import { mockpayload } from "../../data/category/level three/mockpayload";
 import { api } from "../../Config/Api";
 import type { Product } from "../../types/productTypes";
 
@@ -31,23 +31,9 @@ export const createProductsFromMock = createAsyncThunk<
     try {
       const createdProducts: Product[] = [];
 
-      for (const category of menLevelThree) {
-        const payload = {
-          title: "Men Premium Product",
-  description: "High quality premium product for men",
-  mrpPrice: 1999,
-  sellingPrice: 1499,
-  discountPercent: 25,
-  quantity: 100,
-  color: "Black",
-  images: [
-    "https://picsum.photos/200"
-  ],
-  sizes: "S,M,L,XL",
-  in_stock: true,
-  numRatings: 0,
-          categoryId: category.categoryId,
-        };
+      for (const payload of mockpayload) {
+        console.log("4444",payload)
+       
 
         const result = await dispatch(
           createProduct({ request: payload, jwt })
