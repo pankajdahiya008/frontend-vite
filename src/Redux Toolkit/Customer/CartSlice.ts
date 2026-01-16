@@ -103,6 +103,25 @@ export const updateCartItem = createAsyncThunk<
   }
 );
 
+export const clearCart = createAsyncThunk<
+  any,
+  string
+>(
+  "cart/clearCart",
+  async (jwt: string, { rejectWithValue }) => {
+    try {
+      const response = await api.delete(`${API_URL}/clear`, {
+        headers: { Authorization: `Bearer ${jwt}` },
+      });
+      return response.data;
+    } catch (error: any) {
+      return rejectWithValue(
+        error.response.data.message || "Failed to clear cart"
+      );
+    }
+  }
+);
+
 const cartSlice = createSlice({
   name: "cart",
   initialState,
@@ -193,6 +212,18 @@ const cartSlice = createSlice({
         state.loading = false;
       })
       .addCase(updateCartItem.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.payload as string;
+      })
+      .addCase(clearCart.pending, (state) => {
+        state.loading = true;
+        state.error = null;
+      })
+      .addCase(clearCart.fulfilled, (state) => {
+        state.cart = null;
+        state.loading = false;
+      })
+      .addCase(clearCart.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload as string;
       })

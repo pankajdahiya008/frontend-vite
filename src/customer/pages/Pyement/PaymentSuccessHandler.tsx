@@ -2,6 +2,7 @@ import { Backdrop, Button, CircularProgress } from "@mui/material";
 import React, { useEffect } from "react";
 import store, { useAppDispatch, useAppSelector } from "../../../Redux Toolkit/Store";
 import { paymentSuccess } from "../../../Redux Toolkit/Customer/OrderSlice";
+import { clearCart } from "../../../Redux Toolkit/Customer/CartSlice";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const PaymentSuccessHandler = () => {
@@ -28,6 +29,8 @@ const PaymentSuccessHandler = () => {
                 })
             );
         }
+        // Clear cart after successful payment
+        dispatch(clearCart(localStorage.getItem("jwt") || ""));
     }, [paymentId]);
 
 

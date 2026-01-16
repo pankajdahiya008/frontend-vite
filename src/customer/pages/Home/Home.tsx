@@ -67,16 +67,6 @@ const Home = () => {
                 </div>
 
             </section>
-
-            <section className='fixed bottom-10 right-10'>
-                {showChatBot ? <ChatBot handleClose={handleCloseChatBot} /> : <Button onClick={handleShowChatBot} sx={{ borderRadius: "2rem" }} variant='contained' className='h-16 w-16  flex justify-center items-center rounded-full'>
-                    <ChatBubbleIcon sx={{ color: "white", fontSize: "2rem" }} />
-                </Button>}
-
-
-
-
-            </section>
     
 
 
