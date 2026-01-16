@@ -20,6 +20,9 @@ import Wishlist from '../customer/pages/Wishlist/Wishlist'
 import { getWishlistByUserId } from '../Redux Toolkit/Customer/WishlistSlice'
 import ChatBot from '../customer/pages/ChatBot/ChatBot'
 import SearchProducts from '../customer/pages/Search/SearchProducts'
+import About from '../customer/pages/About/About'
+import Services from '../customer/pages/Services/Services'
+import Contact from '../customer/pages/Contact/Contact'
 
 
 const CustomerRoutes = () => {
@@ -36,6 +39,9 @@ const CustomerRoutes = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         {/* <Route path='/chat-bot' element={<ChatBot />} /> */}
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/products/:categoryId' element={<Products />} />
         <Route path='/search-products' element={<SearchProducts />} />
         <Route path='/reviews/:productId' element={<Reviews />} />
