@@ -1,0 +1,649 @@
+{
+  "src/customer/pages/About/About.tsx": {
+    "filename": "About.tsx",
+    "path": "src/customer/pages/About/About.tsx",
+    "version": "1.1",
+    "chunks": {
+      "d1cc63": {
+        "user": "Pankaj .",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1768561381,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "hash": "245858c5",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d1cc63",
+        "hash": "52e0ad61",
+        "encoded": "import%20React%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d1cc63",
+        "hash": "86ed6d78",
+        "encoded": "const%20About%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d1cc63",
+        "hash": "2d3cc1df",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "d1cc63",
+        "hash": "48632b58",
+        "encoded": "%3Cdiv%20className=%22min-h-screen%20bg-gray-50%20py-12%22%3E",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d1cc63",
+        "hash": "a617932a",
+        "encoded": "%3Cdiv%20className=%22max-w-6xl%20mx-auto%20px-4%20sm:px-6%20lg:px-8%22%3E",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d1cc63",
+        "hash": "6418c13d",
+        "encoded": "%7B/*%20Hero%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "d1cc63",
+        "hash": "403dc97c",
+        "encoded": "%3Cdiv%20className=%22text-center%20mb-16%22%3E",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "d1cc63",
+        "hash": "961b4564",
+        "encoded": "%3Ch1%20className=%22text-4xl%20font-bold%20text-gray-900%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "d1cc63",
+        "hash": "52f7146b",
+        "encoded": "About%20Shop%20Zone",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "d1cc63",
+        "hash": "bedc7ab9",
+        "encoded": "%3C/h1%3E",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d1cc63",
+        "hash": "c8821184",
+        "encoded": "%3Cp%20className=%22text-xl%20text-gray-600%20max-w-3xl%20mx-auto%22%3E",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d1cc63",
+        "hash": "7269bb1a",
+        "encoded": "Your%20trusted%20destination%20for%20quality%20products,%20exceptional%20service,%20and%20unbeatable%20value.",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "d1cc63",
+        "hash": "811e6059",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d1cc63",
+        "hash": "0926e51b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d1cc63",
+        "hash": "4b0e8233",
+        "encoded": "%7B/*%20Story%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "d1cc63",
+        "hash": "874022e1",
+        "encoded": "%3Cdiv%20className=%22grid%20md:grid-cols-2%20gap-12%20mb-16%22%3E",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d1cc63",
+        "hash": "6a50607a",
+        "encoded": "%3Cdiv%20className=%22space-y-6%22%3E",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "d1cc63",
+        "hash": "38f67184",
+        "encoded": "%3Ch2%20className=%22text-3xl%20font-bold%20text-gray-900%22%3E",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "d1cc63",
+        "hash": "88e79636",
+        "encoded": "Our%20Story",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "d1cc63",
+        "hash": "35a7c871",
+        "encoded": "%3C/h2%3E",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "d1cc63",
+        "hash": "640bb4e6",
+        "encoded": "%3Cp%20className=%22text-gray-600%20leading-relaxed%22%3E",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "d1cc63",
+        "hash": "41b72340",
+        "encoded": "Founded%20with%20a%20vision%20to%20revolutionize%20online%20shopping,%20Shop%20Zone%20has%20grown%20from%20a%20small%20startup%20to%20a%20leading%20e-commerce%20platform.%20We%20believe%20in%20connecting%20customers%20with%20quality%20products%20while%20supporting%20sellers%20to%20reach%20their%20full%20potential.",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "d1cc63",
+        "hash": "0c4d04b7",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "d1cc63",
+        "hash": "b6917194",
+        "encoded": "%3Cp%20className=%22text-gray-600%20leading-relaxed%22%3E",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "d1cc63",
+        "hash": "89f1a859",
+        "encoded": "Our%20journey%20began%20with%20a%20simple%20idea:%20make%20online%20shopping%20more%20accessible,%20reliable,%20and%20enjoyable%20for%20everyone.%20Today,%20we%20serve%20thousands%20of%20customers%20worldwide,%20offering%20a%20diverse%20range%20of%20products%20from%20trusted%20sellers.",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "d1cc63",
+        "hash": "6853b743",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "d1cc63",
+        "hash": "bcfb8570",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "d1cc63",
+        "hash": "25d2bfee",
+        "encoded": "%3Cdiv%20className=%22bg-gradient-to-br%20from-blue-500%20to-purple-600%20rounded-lg%20p-8%20text-white%22%3E",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "d1cc63",
+        "hash": "8ee0ac9d",
+        "encoded": "%3Ch3%20className=%22text-2xl%20font-bold%20mb-4%22%3EOur%20Mission%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "d1cc63",
+        "hash": "9509b99e",
+        "encoded": "%3Cp%20className=%22text-blue-100%20leading-relaxed%22%3E",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "d1cc63",
+        "hash": "055f9ff1",
+        "encoded": "To%20create%20a%20seamless%20marketplace%20that%20empowers%20both%20buyers%20and%20sellers,%20fostering%20trust,%20innovation,%20and%20growth%20in%20the%20digital%20commerce%20ecosystem.",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "d1cc63",
+        "hash": "d766fda8",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "d1cc63",
+        "hash": "832c6a9d",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "d1cc63",
+        "hash": "4988e367",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "d1cc63",
+        "hash": "90acfd87",
+        "encoded": "%7B/*%20Values%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "d1cc63",
+        "hash": "7be80db0",
+        "encoded": "%3Cdiv%20className=%22mb-16%22%3E",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "d1cc63",
+        "hash": "61f1b2e1",
+        "encoded": "%3Ch2%20className=%22text-3xl%20font-bold%20text-gray-900%20text-center%20mb-12%22%3E",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "d1cc63",
+        "hash": "df0a0309",
+        "encoded": "Our%20Values",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "d1cc63",
+        "hash": "e5155134",
+        "encoded": "%3C/h2%3E",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "d1cc63",
+        "hash": "7b3ab8b0",
+        "encoded": "%3Cdiv%20className=%22grid%20md:grid-cols-3%20gap-8%22%3E",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "d1cc63",
+        "hash": "c73b7a52",
+        "encoded": "%3Cdiv%20className=%22text-center%20p-6%20bg-white%20rounded-lg%20shadow-md%22%3E",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "d1cc63",
+        "hash": "1e61334a",
+        "encoded": "%3Cdiv%20className=%22w-16%20h-16%20bg-blue-100%20rounded-full%20flex%20items-center%20justify-center%20mx-auto%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "d1cc63",
+        "hash": "a630d4fd",
+        "encoded": "%3Csvg%20className=%22w-8%20h-8%20text-blue-600%22%20fill=%22none%22%20stroke=%22currentColor%22%20viewBox=%220%200%2024%2024%22%3E",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "d1cc63",
+        "hash": "874d3bd7",
+        "encoded": "%3Cpath%20strokeLinecap=%22round%22%20strokeLinejoin=%22round%22%20strokeWidth=%7B2%7D%20d=%22M9%2012l2%202%204-4m6%202a9%209%200%2011-18%200%209%209%200%200118%200z%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "d1cc63",
+        "hash": "28304110",
+        "encoded": "%3C/svg%3E",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "d1cc63",
+        "hash": "7882e620",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "d1cc63",
+        "hash": "743a2791",
+        "encoded": "%3Ch3%20className=%22text-xl%20font-semibold%20text-gray-900%20mb-3%22%3EQuality%20Assurance%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "d1cc63",
+        "hash": "910f4908",
+        "encoded": "%3Cp%20className=%22text-gray-600%22%3E",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "d1cc63",
+        "hash": "b07c4616",
+        "encoded": "We%20ensure%20every%20product%20meets%20our%20high%20standards%20before%20reaching%20our%20customers.",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "d1cc63",
+        "hash": "055e80ef",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "d1cc63",
+        "hash": "e88470f6",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "d1cc63",
+        "hash": "da1e4f54",
+        "encoded": "%3Cdiv%20className=%22text-center%20p-6%20bg-white%20rounded-lg%20shadow-md%22%3E",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "d1cc63",
+        "hash": "e4c4ba39",
+        "encoded": "%3Cdiv%20className=%22w-16%20h-16%20bg-green-100%20rounded-full%20flex%20items-center%20justify-center%20mx-auto%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "d1cc63",
+        "hash": "2588ea62",
+        "encoded": "%3Csvg%20className=%22w-8%20h-8%20text-green-600%22%20fill=%22none%22%20stroke=%22currentColor%22%20viewBox=%220%200%2024%2024%22%3E",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "d1cc63",
+        "hash": "c0de5706",
+        "encoded": "%3Cpath%20strokeLinecap=%22round%22%20strokeLinejoin=%22round%22%20strokeWidth=%7B2%7D%20d=%22M13%2010V3L4%2014h7v7l9-11h-7z%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "d1cc63",
+        "hash": "3fd8d935",
+        "encoded": "%3C/svg%3E",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "d1cc63",
+        "hash": "dd4b8b3b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "d1cc63",
+        "hash": "775a1ad0",
+        "encoded": "%3Ch3%20className=%22text-xl%20font-semibold%20text-gray-900%20mb-3%22%3EFast%20Delivery%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "d1cc63",
+        "hash": "67595623",
+        "encoded": "%3Cp%20className=%22text-gray-600%22%3E",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "d1cc63",
+        "hash": "8e597366",
+        "encoded": "Quick%20and%20reliable%20shipping%20to%20get%20your%20orders%20to%20you%20as%20fast%20as%20possible.",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "d1cc63",
+        "hash": "13ee9cae",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "d1cc63",
+        "hash": "2c7f6be1",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "d1cc63",
+        "hash": "95fdc025",
+        "encoded": "%3Cdiv%20className=%22text-center%20p-6%20bg-white%20rounded-lg%20shadow-md%22%3E",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "d1cc63",
+        "hash": "6effe7d2",
+        "encoded": "%3Cdiv%20className=%22w-16%20h-16%20bg-purple-100%20rounded-full%20flex%20items-center%20justify-center%20mx-auto%20mb-4%22%3E",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "d1cc63",
+        "hash": "3d83a6b0",
+        "encoded": "%3Csvg%20className=%22w-8%20h-8%20text-purple-600%22%20fill=%22none%22%20stroke=%22currentColor%22%20viewBox=%220%200%2024%2024%22%3E",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "d1cc63",
+        "hash": "594a7053",
+        "encoded": "%3Cpath%20strokeLinecap=%22round%22%20strokeLinejoin=%22round%22%20strokeWidth=%7B2%7D%20d=%22M4.318%206.318a4.5%204.5%200%20000%206.364L12%2020.364l7.682-7.682a4.5%204.5%200%2000-6.364-6.364L12%207.636l-1.318-1.318a4.5%204.5%200%2000-6.364%200z%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "d1cc63",
+        "hash": "62f84a8b",
+        "encoded": "%3C/svg%3E",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "d1cc63",
+        "hash": "d333aa3e",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "d1cc63",
+        "hash": "a1493cfe",
+        "encoded": "%3Ch3%20className=%22text-xl%20font-semibold%20text-gray-900%20mb-3%22%3ECustomer%20Care%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "d1cc63",
+        "hash": "bf86d74a",
+        "encoded": "%3Cp%20className=%22text-gray-600%22%3E",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "d1cc63",
+        "hash": "5d19bbdb",
+        "encoded": "Dedicated%20support%20team%20ready%20to%20help%20you%20with%20any%20questions%20or%20concerns.",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "d1cc63",
+        "hash": "22366f56",
+        "encoded": "%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "d1cc63",
+        "hash": "13168142",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "d1cc63",
+        "hash": "0ddfee60",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "d1cc63",
+        "hash": "ea1f03a7",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "d1cc63",
+        "hash": "3f2dabaa",
+        "encoded": "%7B/*%20Stats%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "d1cc63",
+        "hash": "24805e7f",
+        "encoded": "%3Cdiv%20className=%22bg-white%20rounded-lg%20shadow-lg%20p-8%22%3E",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "d1cc63",
+        "hash": "0df67392",
+        "encoded": "%3Ch2%20className=%22text-3xl%20font-bold%20text-gray-900%20text-center%20mb-8%22%3E",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "d1cc63",
+        "hash": "8e59f864",
+        "encoded": "Our%20Impact",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "d1cc63",
+        "hash": "19c4708a",
+        "encoded": "%3C/h2%3E",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "d1cc63",
+        "hash": "796ea7b1",
+        "encoded": "%3Cdiv%20className=%22grid%20grid-cols-2%20md:grid-cols-4%20gap-8%22%3E",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "d1cc63",
+        "hash": "cf166617",
+        "encoded": "%3Cdiv%20className=%22text-center%22%3E",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "d1cc63",
+        "hash": "7de9aa1b",
+        "encoded": "%3Cdiv%20className=%22text-3xl%20font-bold%20text-blue-600%20mb-2%22%3E10K+%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "d1cc63",
+        "hash": "f5ea5cbe",
+        "encoded": "%3Cdiv%20className=%22text-gray-600%22%3EHappy%20Customers%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "d1cc63",
+        "hash": "9316ab36",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "d1cc63",
+        "hash": "942e11c0",
+        "encoded": "%3Cdiv%20className=%22text-center%22%3E",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "d1cc63",
+        "hash": "118a644e",
+        "encoded": "%3Cdiv%20className=%22text-3xl%20font-bold%20text-green-600%20mb-2%22%3E500+%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "d1cc63",
+        "hash": "5945dbe3",
+        "encoded": "%3Cdiv%20className=%22text-gray-600%22%3ETrusted%20Sellers%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "d1cc63",
+        "hash": "94f93d35",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "d1cc63",
+        "hash": "29974078",
+        "encoded": "%3Cdiv%20className=%22text-center%22%3E",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "d1cc63",
+        "hash": "4990afd4",
+        "encoded": "%3Cdiv%20className=%22text-3xl%20font-bold%20text-purple-600%20mb-2%22%3E50K+%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "d1cc63",
+        "hash": "f713d1b9",
+        "encoded": "%3Cdiv%20className=%22text-gray-600%22%3EProducts%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "d1cc63",
+        "hash": "1334f196",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "d1cc63",
+        "hash": "a9d5c54f",
+        "encoded": "%3Cdiv%20className=%22text-center%22%3E",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "d1cc63",
+        "hash": "7475693d",
+        "encoded": "%3Cdiv%20className=%22text-3xl%20font-bold%20text-orange-600%20mb-2%22%3E99%25%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "d1cc63",
+        "hash": "139b3d11",
+        "encoded": "%3Cdiv%20className=%22text-gray-600%22%3ESatisfaction%20Rate%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "d1cc63",
+        "hash": "24a5baa4",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "d1cc63",
+        "hash": "e5897d08",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "d1cc63",
+        "hash": "319fca34",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "d1cc63",
+        "hash": "1780deda",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "d1cc63",
+        "hash": "625df6e6",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "d1cc63",
+        "hash": "59b65f59",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "d1cc63",
+        "hash": "5a59cee7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "d1cc63",
+        "hash": "1db065f1",
+        "encoded": "export%20default%20About",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

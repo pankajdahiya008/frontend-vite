@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const API_URL = "https://spring-api.delightfulmoss-a0c493ab.eastus.azurecontainerapps.io";
-export const DEPLOYED_URL = "https://zosh-bazzar-backend.onrender.com"
+export const DEPLOYED_URL = "https://shop-zone-backend.onrender.com"
 // change api
 
 export const api = axios.create({

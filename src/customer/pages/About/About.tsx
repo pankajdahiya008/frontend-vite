@@ -7,7 +7,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            About Zosh Bazzar
+            About Shop Zone
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Your trusted destination for quality products, exceptional service, and unbeatable value.
@@ -21,7 +21,7 @@ const About = () => {
               Our Story
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Founded with a vision to revolutionize online shopping, Zosh Bazzar has grown from a small startup to a leading e-commerce platform. We believe in connecting customers with quality products while supporting sellers to reach their full potential.
+              Founded with a vision to revolutionize online shopping, Shop Zone has grown from a small startup to a leading e-commerce platform. We believe in connecting customers with quality products while supporting sellers to reach their full potential.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Our journey began with a simple idea: make online shopping more accessible, reliable, and enjoyable for everyone. Today, we serve thousands of customers worldwide, offering a diverse range of products from trusted sellers.

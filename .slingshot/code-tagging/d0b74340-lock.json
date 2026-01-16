@@ -1,0 +1,469 @@
+{
+  "src/customer/pages/Contact/Contact.tsx": {
+    "filename": "Contact.tsx",
+    "path": "src/customer/pages/Contact/Contact.tsx",
+    "version": "1.1",
+    "chunks": {
+      "dd3fd2": {
+        "user": "Pankaj .",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1768561485,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "hash": "0891f690",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "dd3fd2",
+        "hash": "b21efc7f",
+        "encoded": "import%20React,%20%7B%20useState%20%7D%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "dd3fd2",
+        "hash": "34998e60",
+        "encoded": "const%20%5BformData,%20setFormData%5D%20=%20useState(%7B",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "dd3fd2",
+        "hash": "7bc99f5c",
+        "encoded": "name:%20'',",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "dd3fd2",
+        "hash": "749671f3",
+        "encoded": "email:%20'',",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "dd3fd2",
+        "hash": "50ed7f01",
+        "encoded": "subject:%20'',",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "dd3fd2",
+        "hash": "5cbb9a4c",
+        "encoded": "message:%20''",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "dd3fd2",
+        "hash": "8c7639b5",
+        "encoded": "%7D)",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "dd3fd2",
+        "hash": "4fa7b567",
+        "encoded": "setFormData(%7B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "dd3fd2",
+        "hash": "339107ff",
+        "encoded": "...formData,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "dd3fd2",
+        "hash": "3256a735",
+        "encoded": "%5Be.target.name%5D:%20e.target.value",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "dd3fd2",
+        "hash": "cb7fe319",
+        "encoded": "%7D)",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "dd3fd2",
+        "hash": "c8f9d1c3",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "dd3fd2",
+        "hash": "6bffb3c4",
+        "encoded": "e.preventDefault()",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "dd3fd2",
+        "hash": "5c1a841a",
+        "encoded": "//%20Handle%20form%20submission%20logic%20here",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "dd3fd2",
+        "hash": "0051ef74",
+        "encoded": "console.log('Form%20submitted:',%20formData)",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "dd3fd2",
+        "hash": "bc4ee12d",
+        "encoded": "//%20Reset%20form",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "dd3fd2",
+        "hash": "67e4b0a5",
+        "encoded": "setFormData(%7B%20name:%20'',%20email:%20'',%20subject:%20'',%20message:%20''%20%7D)",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "dd3fd2",
+        "hash": "b7ad82e2",
+        "encoded": "alert('Thank%20you%20for%20your%20message!%20We%5C'll%20get%20back%20to%20you%20soon.')",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "dd3fd2",
+        "hash": "71870443",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "dd3fd2",
+        "hash": "fa94594d",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "dd3fd2",
+        "hash": "a83e5295",
+        "encoded": "%7B/*%20Hero%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "dd3fd2",
+        "hash": "99299fb1",
+        "encoded": "Contact%20Us",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "dd3fd2",
+        "hash": "b0becd70",
+        "encoded": "We're%20here%20to%20help!%20Get%20in%20touch%20with%20our%20team%20for%20any%20questions,%20concerns,%20or%20feedback.",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "dd3fd2",
+        "hash": "8e83dbe5",
+        "encoded": "%7B/*%20Contact%20Information%20*/%7D",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "dd3fd2",
+        "hash": "ac5863a1",
+        "encoded": "%7B/*%20Contact%20Methods%20*/%7D",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "dd3fd2",
+        "hash": "9f1a1655",
+        "encoded": "New%20York,%20NY%2010001",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "dd3fd2",
+        "hash": "9b821c7f",
+        "encoded": "+1%20(800)%20SHOP-SHOP",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "dd3fd2",
+        "hash": "71818b00",
+        "encoded": "+1%20(800)%20SELL-NOW",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "dd3fd2",
+        "hash": "b154c1c2",
+        "encoded": "info@shopzone.com",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "dd3fd2",
+        "hash": "f686c6f9",
+        "encoded": "support@shopzone.com",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "dd3fd2",
+        "hash": "83c771f2",
+        "encoded": "%7B/*%20Social%20Media%20*/%7D",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "dd3fd2",
+        "hash": "35e92328",
+        "encoded": "%7B/*%20Contact%20Form%20*/%7D",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "dd3fd2",
+        "hash": "39f60b5d",
+        "encoded": "Full%20Name%20*",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "dd3fd2",
+        "hash": "e12ed198",
+        "encoded": "type=%22text%22",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "dd3fd2",
+        "hash": "e8206c1d",
+        "encoded": "id=%22name%22",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "dd3fd2",
+        "hash": "7ee3b865",
+        "encoded": "name=%22name%22",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "dd3fd2",
+        "hash": "0f8b8d27",
+        "encoded": "value=%7BformData.name%7D",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "dd3fd2",
+        "hash": "a3f7afc9",
+        "encoded": "onChange=%7BhandleChange%7D",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "dd3fd2",
+        "hash": "29348221",
+        "encoded": "required",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "dd3fd2",
+        "hash": "149f745d",
+        "encoded": "className=%22w-full%20px-4%20py-3%20border%20border-gray-300%20rounded-lg%20focus:ring-2%20focus:ring-blue-500%20focus:border-blue-500%20outline-none%20transition-colors%22",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "dd3fd2",
+        "hash": "cf944d30",
+        "encoded": "placeholder=%22Enter%20your%20full%20name%22",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "dd3fd2",
+        "hash": "bfad0168",
+        "encoded": "Email%20Address%20*",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "dd3fd2",
+        "hash": "4bdb265b",
+        "encoded": "type=%22email%22",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "dd3fd2",
+        "hash": "7dd1ece2",
+        "encoded": "id=%22email%22",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "dd3fd2",
+        "hash": "ccf026eb",
+        "encoded": "name=%22email%22",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "dd3fd2",
+        "hash": "9a74e12c",
+        "encoded": "value=%7BformData.email%7D",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "dd3fd2",
+        "hash": "77f369ff",
+        "encoded": "onChange=%7BhandleChange%7D",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "dd3fd2",
+        "hash": "47a2c5f0",
+        "encoded": "required",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "dd3fd2",
+        "hash": "e20d3110",
+        "encoded": "className=%22w-full%20px-4%20py-3%20border%20border-gray-300%20rounded-lg%20focus:ring-2%20focus:ring-blue-500%20focus:border-blue-500%20outline-none%20transition-colors%22",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "dd3fd2",
+        "hash": "1c8e3a98",
+        "encoded": "placeholder=%22Enter%20your%20email%20address%22",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "dd3fd2",
+        "hash": "ee8d484b",
+        "encoded": "Subject%20*",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "dd3fd2",
+        "hash": "78f695e3",
+        "encoded": "id=%22subject%22",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "dd3fd2",
+        "hash": "094e7698",
+        "encoded": "name=%22subject%22",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "dd3fd2",
+        "hash": "9f54eb6c",
+        "encoded": "value=%7BformData.subject%7D",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "dd3fd2",
+        "hash": "238c4515",
+        "encoded": "onChange=%7BhandleChange%7D",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "dd3fd2",
+        "hash": "754d5adf",
+        "encoded": "required",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "dd3fd2",
+        "hash": "63314edb",
+        "encoded": "className=%22w-full%20px-4%20py-3%20border%20border-gray-300%20rounded-lg%20focus:ring-2%20focus:ring-blue-500%20focus:border-blue-500%20outline-none%20transition-colors%22",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "dd3fd2",
+        "hash": "4a64ca95",
+        "encoded": "Message%20*",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "dd3fd2",
+        "hash": "90df6eb8",
+        "encoded": "id=%22message%22",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "dd3fd2",
+        "hash": "02ec1683",
+        "encoded": "name=%22message%22",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "dd3fd2",
+        "hash": "86284e35",
+        "encoded": "value=%7BformData.message%7D",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "dd3fd2",
+        "hash": "0c30aa34",
+        "encoded": "onChange=%7BhandleChange%7D",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "dd3fd2",
+        "hash": "ae3264a3",
+        "encoded": "required",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "dd3fd2",
+        "hash": "e20de5b8",
+        "encoded": "rows=%7B6%7D",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "dd3fd2",
+        "hash": "1896d1c2",
+        "encoded": "className=%22w-full%20px-4%20py-3%20border%20border-gray-300%20rounded-lg%20focus:ring-2%20focus:ring-blue-500%20focus:border-blue-500%20outline-none%20transition-colors%20resize-vertical%22",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "dd3fd2",
+        "hash": "8462c719",
+        "encoded": "placeholder=%22Please%20describe%20your%20inquiry%20in%20detail...%22",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "dd3fd2",
+        "hash": "06ced0ff",
+        "encoded": "*%20Required%20fields",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "dd3fd2",
+        "hash": "6492e1e7",
+        "encoded": "type=%22submit%22",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "dd3fd2",
+        "hash": "b0f30f0e",
+        "encoded": "className=%22bg-blue-600%20text-white%20px-8%20py-3%20rounded-lg%20font-semibold%20hover:bg-blue-700%20focus:ring-2%20focus:ring-blue-500%20focus:ring-offset-2%20outline-none%20transition-colors%22",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "dd3fd2",
+        "hash": "ae510dbd",
+        "encoded": "Send%20Message",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "dd3fd2",
+        "hash": "c67a4070",
+        "encoded": "%7B/*%20FAQ%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "dd3fd2",
+        "hash": "b21dc022",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "dd3fd2",
+        "hash": "3222a662",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "dd3fd2",
+        "hash": "ee96fbf0",
+        "encoded": "export%20default%20Contact",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

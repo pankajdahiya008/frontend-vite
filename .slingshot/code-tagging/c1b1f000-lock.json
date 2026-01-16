@@ -1,0 +1,303 @@
+{
+  "src/routes/CustomerRoutes.tsx": {
+    "filename": "CustomerRoutes.tsx",
+    "path": "src/routes/CustomerRoutes.tsx",
+    "version": "1.1",
+    "chunks": {
+      "71ca90": {
+        "user": "Pankaj .",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1768561552,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "9a5e00bb",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "a0f2d7": {
+        "user": "Pankaj .",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1768561553,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "1e58092a",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "71ca90",
+        "hash": "b47b77a0",
+        "encoded": "import%20React,%20%7B%20useEffect%20%7D%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "71ca90",
+        "hash": "dcb3d1a2",
+        "encoded": "import%20%7B%20Route,%20Routes%20%7D%20from%20'react-router-dom'",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "71ca90",
+        "hash": "ba564bac",
+        "encoded": "import%20Home%20from%20'../customer/pages/Home/Home'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "71ca90",
+        "hash": "6873e551",
+        "encoded": "import%20Products%20from%20'../customer/pages/Products/Products'",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "71ca90",
+        "hash": "e4ab2254",
+        "encoded": "import%20ProductDetails%20from%20'../customer/pages/Products/ProductDetails/ProductDetails'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "71ca90",
+        "hash": "e5a1f5dd",
+        "encoded": "import%20Cart%20from%20'../customer/pages/Cart/Cart'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "71ca90",
+        "hash": "fdf7383e",
+        "encoded": "import%20Address%20from%20'../customer/pages/Checkout/AddressPage'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "71ca90",
+        "hash": "e198fbc7",
+        "encoded": "import%20Profile%20from%20'../customer/pages/Account/Profile'",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "71ca90",
+        "hash": "a04bc1f1",
+        "encoded": "import%20BecomeSeller%20from%20'../customer/pages/BecomeSeller/BecomeSeller'",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "71ca90",
+        "hash": "a0f98b99",
+        "encoded": "import%20Footer%20from%20'../customer/components/Footer/Footer'",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "71ca90",
+        "hash": "881a0991",
+        "encoded": "import%20Navbar%20from%20'../customer/components/Navbar/Navbar'",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "71ca90",
+        "hash": "3d1f701f",
+        "encoded": "import%20NotFound%20from%20'../customer/pages/NotFound/NotFound'",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "71ca90",
+        "hash": "db639ff2",
+        "encoded": "import%20Auth%20from%20'../customer/pages/Auth/Auth'",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "71ca90",
+        "hash": "78242a12",
+        "encoded": "import%20%7B%20useAppDispatch,%20useAppSelector%20%7D%20from%20'../Redux%20Toolkit/Store'",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "71ca90",
+        "hash": "a8e844b2",
+        "encoded": "import%20%7B%20fetchUserCart%20%7D%20from%20'../Redux%20Toolkit/Customer/CartSlice'",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "71ca90",
+        "hash": "80737e45",
+        "encoded": "import%20PaymentSuccessHandler%20from%20'../customer/pages/Pyement/PaymentSuccessHandler'",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "71ca90",
+        "hash": "a71a7505",
+        "encoded": "import%20Reviews%20from%20'../customer/pages/Review/Reviews'",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "71ca90",
+        "hash": "5dea8041",
+        "encoded": "import%20WriteReviews%20from%20'../customer/pages/Review/WriteReview'",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "71ca90",
+        "hash": "21f77ad9",
+        "encoded": "import%20Wishlist%20from%20'../customer/pages/Wishlist/Wishlist'",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "71ca90",
+        "hash": "31555359",
+        "encoded": "import%20%7B%20getWishlistByUserId%20%7D%20from%20'../Redux%20Toolkit/Customer/WishlistSlice'",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "71ca90",
+        "hash": "42461683",
+        "encoded": "import%20ChatBot%20from%20'../customer/pages/ChatBot/ChatBot'",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "71ca90",
+        "hash": "23298bd9",
+        "encoded": "import%20SearchProducts%20from%20'../customer/pages/Search/SearchProducts'",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "71ca90",
+        "hash": "1ea45ce8",
+        "encoded": "import%20About%20from%20'../customer/pages/About/About'",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "71ca90",
+        "hash": "eb309ec6",
+        "encoded": "import%20Services%20from%20'../customer/pages/Services/Services'",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "71ca90",
+        "hash": "d3897f4f",
+        "encoded": "import%20Contact%20from%20'../customer/pages/Contact/Contact'",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "a0f2d7",
+        "hash": "00fa6887",
+        "encoded": "%3CRoutes%3E",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "a0f2d7",
+        "hash": "9c77694b",
+        "encoded": "%3CRoute%20path='/'%20element=%7B%3CHome%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "a0f2d7",
+        "hash": "1c2cd901",
+        "encoded": "%7B/*%20%3CRoute%20path='/chat-bot'%20element=%7B%3CChatBot%20/%3E%7D%20/%3E%20*/%7D",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "a0f2d7",
+        "hash": "be61826d",
+        "encoded": "%3CRoute%20path='/about'%20element=%7B%3CAbout%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "a0f2d7",
+        "hash": "d59859da",
+        "encoded": "%3CRoute%20path='/services'%20element=%7B%3CServices%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "a0f2d7",
+        "hash": "a798bf4c",
+        "encoded": "%3CRoute%20path='/contact'%20element=%7B%3CContact%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "a0f2d7",
+        "hash": "70fea6f5",
+        "encoded": "%3CRoute%20path='/products/:categoryId'%20element=%7B%3CProducts%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "a0f2d7",
+        "hash": "5d5d2f57",
+        "encoded": "%3CRoute%20path='/search-products'%20element=%7B%3CSearchProducts%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "a0f2d7",
+        "hash": "0652bbee",
+        "encoded": "%3CRoute%20path='/reviews/:productId'%20element=%7B%3CReviews%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "a0f2d7",
+        "hash": "681525cc",
+        "encoded": "%3CRoute%20path='/reviews/:productId/create'%20element=%7B%3CWriteReviews%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "a0f2d7",
+        "hash": "f1dda017",
+        "encoded": "%3CRoute%20path='/product-details/:categoryId/:name/:productId'%20element=%7B%3CProductDetails%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "a0f2d7",
+        "hash": "00513811",
+        "encoded": "%3CRoute%20path='/cart'%20element=%7B%3CCart%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "a0f2d7",
+        "hash": "309af80b",
+        "encoded": "%3CRoute%20path='/wishlist'%20element=%7B%3CWishlist%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "a0f2d7",
+        "hash": "be5336a3",
+        "encoded": "%3CRoute%20path='/checkout/address'%20element=%7B%3CAddress%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "a0f2d7",
+        "hash": "e2140cb2",
+        "encoded": "%3CRoute%20path='/account/*'%20element=%7B%3CProfile%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "a0f2d7",
+        "hash": "b00dd71a",
+        "encoded": "%3CRoute%20path='/login'%20element=%7B%3CAuth/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "a0f2d7",
+        "hash": "070f021c",
+        "encoded": "%3CRoute%20path='/payment-success/:orderId'%20element=%7B%3CPaymentSuccessHandler/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "a0f2d7",
+        "hash": "16d3add1",
+        "encoded": "%3CRoute%20path='*'%20element=%7B%3CNotFound%20/%3E%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "a0f2d7",
+        "hash": "3798c89c",
+        "encoded": "%3C/Routes%3E",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

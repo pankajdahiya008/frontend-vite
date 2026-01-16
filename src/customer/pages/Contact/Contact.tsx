@@ -72,8 +72,8 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
                     <p className="text-gray-600">
                       Customer Service: <br />
-                      <a href="tel:+1-800-ZOSH-SHOP" className="text-blue-600 hover:underline">
-                        +1 (800) ZOSH-SHOP
+                      <a href="tel:+1-800-SHOP-SHOP" className="text-blue-600 hover:underline">
+                        +1 (800) SHOP-SHOP
                       </a>
                     </p>
                     <p className="text-gray-600 mt-2">
@@ -95,14 +95,14 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
                     <p className="text-gray-600">
                       General Inquiries: <br />
-                      <a href="mailto:info@zoshbazzar.com" className="text-blue-600 hover:underline">
-                        info@zoshbazzar.com
+                      <a href="mailto:info@shopzone.com" className="text-blue-600 hover:underline">
+                        info@shopzone.com
                       </a>
                     </p>
                     <p className="text-gray-600 mt-2">
                       Support: <br />
-                      <a href="mailto:support@zoshbazzar.com" className="text-blue-600 hover:underline">
-                        support@zoshbazzar.com
+                      <a href="mailto:support@shopzone.com" className="text-blue-600 hover:underline">
+                        support@shopzone.com
                       </a>
                     </p>
                   </div>

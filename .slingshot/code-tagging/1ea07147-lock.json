@@ -1,0 +1,127 @@
+{
+  "src/customer/pages/Services/Services.tsx": {
+    "filename": "Services.tsx",
+    "path": "src/customer/pages/Services/Services.tsx",
+    "version": "1.1",
+    "chunks": {
+      "bcbbb9": {
+        "user": "Pankaj .",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1768561453,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "hash": "a14e9a4a",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "bcbbb9",
+        "hash": "52e0ad61",
+        "encoded": "import%20React%20from%20'react'",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "bcbbb9",
+        "hash": "2d3cc1df",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "bcbbb9",
+        "hash": "6418c13d",
+        "encoded": "%7B/*%20Hero%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "bcbbb9",
+        "hash": "62ae4690",
+        "encoded": "Our%20Services",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "bcbbb9",
+        "hash": "30844c33",
+        "encoded": "Comprehensive%20solutions%20designed%20to%20enhance%20your%20shopping%20experience%20and%20business%20growth.",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "bcbbb9",
+        "hash": "bfce6c1d",
+        "encoded": "%7B/*%20Main%20Services%20Grid%20*/%7D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "bcbbb9",
+        "hash": "acb8f676",
+        "encoded": "%7B/*%20Customer%20Services%20*/%7D",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "bcbbb9",
+        "hash": "3a5975b4",
+        "encoded": "Complete%20online%20marketplace%20with%20advanced%20search,%20filtering,%20and%20secure%20payment%20processing.",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "bcbbb9",
+        "hash": "de4126bf",
+        "encoded": "Fast%20and%20reliable%20shipping%20solutions%20with%20real-time%20tracking%20and%20flexible%20delivery%20options.",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "bcbbb9",
+        "hash": "cc81ae8e",
+        "encoded": "24/7%20customer%20service%20with%20multiple%20communication%20channels%20and%20expert%20assistance.",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "bcbbb9",
+        "hash": "e7559070",
+        "encoded": "Secure%20and%20flexible%20payment%20options%20with%20industry-leading%20encryption%20and%20fraud%20protection.",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "bcbbb9",
+        "hash": "fdc69adb",
+        "encoded": "Comprehensive%20tools%20for%20sellers%20to%20manage%20inventory,%20track%20sales,%20and%20grow%20their%20business.",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "bcbbb9",
+        "hash": "c97295fb",
+        "encoded": "%7B/*%20Additional%20Services%20Section%20*/%7D",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "bcbbb9",
+        "hash": "4103bf54",
+        "encoded": "Unlock%20exclusive%20benefits%20with%20our%20premium%20membership%20program%20designed%20for%20frequent%20shoppers%20and%20serious%20sellers.",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "bcbbb9",
+        "hash": "7489ea82",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "bcbbb9",
+        "hash": "dc65d51e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "bcbbb9",
+        "hash": "ec643e20",
+        "encoded": "export%20default%20Services",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

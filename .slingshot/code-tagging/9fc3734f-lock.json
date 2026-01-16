@@ -1,0 +1,61 @@
+{
+  "src/customer/components/Footer/Footer.tsx": {
+    "filename": "Footer.tsx",
+    "path": "src/customer/components/Footer/Footer.tsx",
+    "version": "1.1",
+    "chunks": {
+      "79491e": {
+        "user": "Pankaj .",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1768561553,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "b4355c2b",
+        "messageId": null,
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "15": {
+        "chunkId": "79491e",
+        "hash": "c1051537",
+        "encoded": "%3Cul%20className=%22flex%20justify-center%20space-x-4%22%3E",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "79491e",
+        "hash": "705ad145",
+        "encoded": "%3Cli%3E%3Ca%20href=%22/%22%20className=%22hover:underline%22%3EHome%3C/a%3E%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "79491e",
+        "hash": "de153172",
+        "encoded": "%3Cli%3E%3Ca%20href=%22/about%22%20className=%22hover:underline%22%3EAbout%3C/a%3E%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "79491e",
+        "hash": "1c7fd051",
+        "encoded": "%3Cli%3E%3Ca%20href=%22/services%22%20className=%22hover:underline%22%3EServices%3C/a%3E%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "79491e",
+        "hash": "847a3086",
+        "encoded": "%3Cli%3E%3Ca%20href=%22/contact%22%20className=%22hover:underline%22%3EContact%3C/a%3E%3C/li%3E",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "79491e",
+        "hash": "57788f52",
+        "encoded": "%3C/ul%3E",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
