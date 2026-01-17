@@ -167,7 +167,7 @@ const ProductDetails = () => {
                             onClick={handleAddCart}
                             sx={{ py: "1rem" }}
                             variant='contained' fullWidth startIcon={<AddShoppingCartIcon />}>
-                            Add To Bag
+                            Add To Bag (Logged In User)
                         </Button>
                         <Button
                             sx={{ py: "1rem" }}

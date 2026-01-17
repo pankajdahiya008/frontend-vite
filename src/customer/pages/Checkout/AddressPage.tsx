@@ -117,7 +117,7 @@ const AddressPage = () => {
                         <div className='p-5'>
                             <Button
                                 onClick={handleCreateOrder} sx={{ py: "11px" }}
-                                variant='contained' fullWidth>Checkout</Button>
+                                variant='contained' fullWidth>Checkout (After adding address)</Button>
                         </div>
                     </section>
 
